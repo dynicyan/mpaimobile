@@ -57,7 +57,7 @@ $modules: () !default;
 
 // *
 //  * 将px转换成rem的具体实现
-//  * @param  {Number,Array} $values      要转换的数值，活着一组要转换的数值
+//  * @param  {Number,Array} $values      要转换的数值，或者一组要转换的数值
 //  * @param  {Number} $base-value: $rem-base     计算转换参考的基数，默认16px
 //  * @return {Number,String}              转换后的值
 

@@ -18,15 +18,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass">
-  // @import "../assets/scss/reset"
-  @import "../assets/scss/px2rem.scss"
+  @import "../assets/scss/reset"
+  // @import "../assets/pub/_rem-calc.scss"
   .h1
-    font-size: px2rem(36)
+    font-size: rem-calc(36)
   .type-b
-    width: px2rem(500)
-    height: px2rem(500)
+    width: rem-calc(500)
+    height: rem-calc(500)
     background: #ffd600
     margin: 0 auto
     h2
-      font-size: px2rem(24)
+      font-size: rem-calc(24)
 </style>

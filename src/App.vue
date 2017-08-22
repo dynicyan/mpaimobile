@@ -11,5 +11,6 @@ export default {
 </script>
 
 <style lang='sass'>
-	// @import "./assets/scss/reset"
+	@import "./assets/pub/_mobile-response.scss"
+	// @import "./assets/pub/mobile-mixin/_Response.scss"
 </style>

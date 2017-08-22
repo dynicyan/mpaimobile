@@ -7,7 +7,7 @@ import router from './router'
 Vue.use(VueResource)
 Vue.config.productionTip = false
 import './assets/base.css'
-import './assets/flexMobile.js'
+// import './assets/flexMobile.js'
 /* eslint-disable no-new */
 new Vue({
   router,

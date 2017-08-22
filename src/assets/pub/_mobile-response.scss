@@ -4,7 +4,9 @@
 //   $reset:false;
 //   $Response:false;
 // 其他模块默认全部引入，没有开关功能
-@import "mobile-mixin/reset";
-@import "mobile-mixin/rem-calc";
-// @import "mobile-mixin/Response";
-@import "mobile-mixin/rem-sprites";
+// @import "mobile-mixin/reset";
+// @import "mobile-mixin/rem-calc";
+$Response:true;
+$rem-base: 27;
+@import "mobile-mixin/Response";
+// @import "mobile-mixin/rem-sprites";

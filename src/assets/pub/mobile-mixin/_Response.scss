@@ -1,4 +1,5 @@
 $Response:false !default;
+$Response_rate: 12 / 320 !default;
 $mediaArrays:(320 360 375 400 480 540 640 720) !default;
 @if $Response==true {
     $htmlSize: null;
