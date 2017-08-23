@@ -11,6 +11,8 @@ export default {
 </script>
 
 <style lang='sass'>
-	@import "./assets/pub/_mobile-response.scss"
 	// @import "./assets/pub/mobile-mixin/_Response.scss"
+	@import "./assets/pub/_mobile-response.scss"
+	body
+		background-image: linear-gradient(to top, #eeeeee, #f9f9f9);
 </style>
